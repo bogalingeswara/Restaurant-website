@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/css/bootstrap.min.css">
+
+
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/media.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,400;1,500;1,600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100;0,400;1,200;1,300&display=swap" rel="stylesheet">
+    <title>David Chu's China Bistro</title>
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+</head>
+
+<body>
+
+    <header>
+        <nav id="header-nav" class="navbar navbar-default">
+            <div class="container">
+                <!-- logo and brand -->
+                <div class="navbar-header">
+                    <a href="index.html" class="float-start d-none d-sm-none d-md-block d-lg-block">
+                        <div id="logo_img" alt="Logo_img"></div>
+                    </a>
+                    <div class="navbar-brand">
+                        <a href="index.html ">
+                            <h2>David Chu's China Bistro</h2>
+                        </a>
+                        <p>Kosher Certified</p>
+                    </div>
+                </div>
+                <!-- end -->
+                <!-- navigation -->
+                <div class="navbar navbar-expand-lg navbar-expand-md">
+
+                    <button id="toggler-icon" class="navbar-toggler navbar-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                        <ul class="navbar-nav me-auto mb-2">
+                            <li class="nav-item">
+                                <button>
+                                    <a class="nav-link" href="menu.html"><img src="images/spoon-and-fork.png" alt="" width="25"
+                                            height="25"> Memu</a>
+                                </button>
+                            </li>
+                            <li class="nav-item">
+                                <button>
+                                    <a class="nav-link" href="#"><img src="images/information.png" alt="" width="25"
+                                            height="25"> About</a>
+                                </button>
+                            </li>
+                            <li class="nav-item">
+                                <button>
+                                    <a class="nav-link" href="#"> <img src="images/awards.png" alt="" width="25"
+                                            height="25"> Awards</a>
+                                </button>
+                            </li>
+                            <!-- <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Dropdown
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li> -->
+                            <!-- <li class="nav-item">
+                            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                        </li> -->
+                        </ul>
+
+                        <form class="d-flex d-lg-none">
+                            <input id="search" class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-success" type="submit">Search</button>
+                        </form>
+
+                    </div>
+
+                </div>
+                <!-- end -->
+            </div>
+        </nav>
+    </header>
+
+
+    <div id="main-content" class="container">
+        <div class="jumbotron">
+            <center>
+                <img src="images/Restaurant-Decor-Blog.jpg" alt="Restaurant-Decor-Blog" class="img-responsive">
+            </center>
+        </div>
+        <hr id="line_1">
+
+        <div id="home-tiles" class="row">
+            <div class="col-md-4 col-sm-6 col-xs-12">
+                <a href="menu.html">
+                    <div id="menu-tile">
+                        <span>Menu</span>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12">
+                <a href="single-category.html">
+                    <div id="specials-tile">
+                        <span>Specials</span>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-4 col-sm-12 col-xs-12">
+                <a href="https://goo.gl/maps/EkMXCK6RZtM31F7B9" target="_blank">
+                    <div id="map-tile">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3084.6752464053493!2d-76.7138767855602!3d39.3635902795014!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c81a14e7817803%3A0xab20a0e99daa17ea!2sDavid%20Chu&#39;s%20China%20Bistro!5e0!3m2!1sen!2sin!4v1649588376591!5m2!1sen!2sin"
+                            width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <span>Maps</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+
+    <br>
+    <!-- footer -->
+    <footer class="panel-footer">
+
+        <div class="container">
+            <div class="row" id="footer">
+                <hr>
+                <section id="hours" class="col-sm-4">
+                    <span>Hours:</span><br> sun-Thurs: 11:15am - 10:00pm<br> Fri: 11:15am - 2:30pm<br> Saturday Closed.
+                    <hr class="visiblie-xs">
+                </section><br>
+                <section id="address" class="col-sm-4">
+                    <span>Address:</span><br>7105 Reisterstown Road <br>Baltimore, MD 21215
+                    <p id="foot">* Delivery area within 3-4 miles, with minimum order of $20 plus $3 charge for all deliveries</p>
+                    <hr class="visiblie-xs ">
+                </section>
+                <section id="testimonials" class="col-sm-3">
+                    <p id="foot">"The best Chinese restaurant I've been to! and that's saying a lot, since I've been to many!"</p>
+                    <p id="foot">"Amazing food! Great service! Couldn't ask for more! I'll be back again and againg"</p>
+                </section>
+            </div>
+            <hr>
+            <div class="text-center ">
+                &copy; Copyright David Chu's China Bistro 2015
+            </div>
+        </div>
+    </footer>
+
+    <script src=" js/jquery-3.6.0.min.js ">
+    </script>
+    <script src="js/js/bootstrap.min.js "></script>
+    <script src="js/index.js "></script>
+</body>
+
+</html>
